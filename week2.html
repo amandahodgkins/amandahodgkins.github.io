@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head> <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
-    <link rel="manifest" href="media/site.webmanifest">
+    <head> <link rel="apple-touch-icon" sizes="180x180" href="media/website/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="media/website/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="media/website/favicon-16x16.png">
+    <link rel="manifest" href="media/website/site.webmanifest">
 <title>Week 2</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -124,18 +124,59 @@ function closeNav() {
   </header>
 <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h2><u>The Swatches</u></h2>
-    <h3>Step 1</h3>
-<p>For the first part of this assignment, I started by going to the lab and seeing what kind of materials I could use to make my swatches. After looking at my options, I decided on cardboard, 1/8 inch blue acrylic, 1/4 inch walnut, 1/8 inch birch, and 1/4 inch black acrylic.<br>
-    <img src="media/terminal.png" style="width:50%;padding-top: 10px;" class="center">
-    <h2> Step 2</h2>
-    I then went on the <a href="https://www.w3schools.com/w3css/w3css_templates.asp">w3schools website</a> to look at templates for my site. After looking at the previews for a bunch of options, I decided to go with the Nature Portfolio template. (pictured below)
-    <br><img src="media/template.png" style="width:50%; padding-top: 10px;" >
-    <h2>Step 3</h2>
-    I then copied the source code from the <a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_portfolio&stacked=h">w3schools template</a> to the Brackets app, where I had installed an extension that would allow me to push my edits to my repository and website directly. I then worked on editing the information within the template to fit my needs and the overall look I wanted my website to have. I changed the layout to make the about me section a separate page from the home page, and then added a separate page for this assignment which you're reading right now! This photo below showcases me working on coding the site, with the Brackets app tiled to the left of my screen, and the live preview of my work on the right.<br>     <img src="media/coding.png" style="width: 50%; padding-top: 10px; padding-bottom: 10px; "><br>
- Most of these edits were made using my prior knowledge of coding, however I used a couple other resources from w3schools in my navigation bar, namely the popup for my assignments. After saving my edits to the code, I clicked the box next to the Commit button on the bracketsgit extension, which selected all of my pages that were edited. I then hit commit, and a popup which shows the changes made to the code appears.<br> <img src="media/gitpush.png" style="width: 30%; padding-top: 10px; padding-bottom: 10px; "><br>
-    After writing something to explain what was changed, the button that says OK is pressed. Brackets goes back to the editing screen, and a new button in the extension panel now has a number next to it that denotes the number of pages edited/changed.
-    <br> <img src="media/bracketsgit%20push.png" style ="width: 50%; padding-top: 10px; padding-bottom: 10px;"> <br>I click on this and these changes get pushed to the Github repository which then updates the actual website! <br> <img src="media/updated.png" style="width: 30%; padding-top: 10px; padding-bottom: 25px;"> <br>
 
+<p>For the first part of this assignment, I started by going to the lab and seeing what kind of materials I could use to make my swatches. After looking at my options, I decided on cardboard, 1/8 inch blue acrylic, 1/4 inch walnut, 1/8 inch birch, and 1/4 inch black acrylic.<br><br>
+    As I waited to use the laser cutter, I went on Adobe Illustrator on my laptop and created a template to make each of my swatches with. This template was a simple rectangle with rounded corners with the raster and vector settings written in the middle. I then put this file on a usb, before transferring it to the lab computer and opening it again, where I edited the vector and raster setting numbers to match the material I was working with.<br>
+    <img src="media/laser/swatchtemplate.JPG" style="width:50%;padding-top: 10px; padding-bottom: 10px;" class="center"><br> I then went to print this Adobe file, where I changed the destination to Epilog Engraver and the placement to the top left-hand corner. I opened both of the applications associated with the laser cutter (Epilog App and Epilog Engraver) My swatch loaded on these applications, and I changed the settings to match the numbers written on the swatch, saved, and then hit preview. In the image below, the red line means that that shape is going to be cut, and the shaded gray/black areas are going to be engraved. <br>
+    <img src="media/laser/swatchpreview.JPG" style="width:50%;padding-top: 10px;padding-bottom: 10px;">
+         <br>
+    Next, I clicked print and sent my job to the laser cutter itself. Once I altered the origin, raised the bed, and focused the laser, I clicked go and cut out my swatch. This process was repeated for each material, changing the template, vector, and raster settings accordingly.
+    <table style="width:100%">
+        <tr><th><img src="media/laser/1:4walnut.JPG" style="width:100%"></th>
+        <th><img src="media/laser/1:8birch.JPG" style="width:100%"></th>
+        <th> <img src="media/laser/blueacrylic.JPG" style="width:100%"></th>
+        <th> <img src="media/laser/blackacrylic.JPG"style="width:100%"></th>
+        <th><img src="media/laser/1:4cardboard.JPG"style="width:100%;"></th>
+        </tr>
+    <tr><th> 1/4 inch walnut</th>
+        <th> 1/8 inch birch</th>
+        <th> 1/8 inch blue acrylic</th>
+        <th> 1/4 inch black acrylic</th>
+        <th> 1/4 inch cardboard</th></tr></table>
+    <h2> <u>The Box</u></h2>
+    Following Madison's video tutorial, I went to <a href="https://www.festi.info/boxes.py/index.html" >this website</a> and looked under the boxes with flex tab to look at my options for templates of boxes with living hinges. Out of all the options, I decided to use FlexBox2. I played around with the settings for the size and shape of the box in the generator, and ended up changing the radius of the corners to 25. In the default settings section, I changed the thickness to 3.175 to match the 1/8 inch birch that I was using.
+    <br><img src="media/laser/boxtemplatesettings.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;" >
+    <br>
+    After the settings were to my liking, I generated my template, saved it, and then opened it in Adobe Illustrator, where I added my initials on the piece that would be under the hinge on the front of the box.
+    <br> <img src="media/laser/boxadobe.png" style="width:50%; padding-bottom: 10px;padding-top: 10px;">
+ <br>
+     I changed the stroke weight of the entire piece to .01mm, which is the value it needs to be for the laser to cut. I then went to print the file, and saved it to the Epilog Engraver, again, just like with the swatches. I opened my job in these applications, and changed the raster and vector settings to match the wood I was working with.<br>
+
+    <img src="media/laser/boxsettings.png" style="width: 50%; padding-top: 10px; padding-bottom: 10px; "><br>
+I then previewed the project to make sure that the areas I wanted to cut would be cut and the area I wanted engraved would get engraved. Just like with the swatch preview, red means cut and gray shading means engrave, so I was all set!<br> <img src="media/laser/boxpreview.png" style="width: 50%; padding-top: 10px; padding-bottom: 10px; "><br>
+    Since everything was all good to go, I sent my job to the laser cutter.
+    <br> <img src="media/laser/joboncutter.JPG" style ="width: 50%; padding-top: 10px; padding-bottom: 10px;"> <br>
+    I raised the bed of the laser cutter and then put my plywood into it. <br>
+    <img src="media/laser/focuslaser.JPG" style="width: 50%; padding-top: 10px; padding-bottom:10px;"> <br>
+    I jogged the laser to the upper left-hand corner of the machine, and then set that point as the origin for my project.<br>
+    <img src="media/laser/settingorigin.JPG" style="width:50%;padding-top: 10px; padding-bottom: 10px;"><br>
+    Next, I focused the laser by putting the metal measuring device on the machine. I flicked it to make it move before raising the bed until it just touched the tip of the tool.<br>
+    <img src="media/laser/focus.JPG" style="width:50%;padding-bottom: 10px; padding-top: 10px;"><br>
+    After that step, everything was ready for me to actually cut my box! I clicked go, and it was off!<br>
+    The job started with engraving my initials, which you can faintly see to the left of the laser in the following photo. <br>
+    <img src="media/laser/raster.JPG" style="width: 50%;padding-bottom: 10px;padding-top: 10px;"><br>
+    As it continued, more and more of my box became visible, starting with the outline of the main shapes...<br>
+    <img src="media/laser/cut1.JPG" style="width: 50%;padding-bottom: 10px;padding-top: 10px;"><br>
+    before working on the first living hinge...<br>
+    <img src="media/laser/cut2.JPG" style="width: 50%;padding-bottom: 10px;padding-top: 10px;"><br>
+    and then the second!<br>
+    <img src="media/laser/cut4.JPG" style="width: 50%;padding-bottom: 10px;padding-top: 10px;"><br>
+    The sides and bottom part of the front came next, and after a few minutes, everything was cut! I Took the wood out of the laser cutter, popped my pieces out, and after a little bit of confusion as I figured out how to assemble the box and a little bit of wood glue on the sides and bottom, my box was finished!
+    <br>
+    <table><tr><th><img src="media/laser/openbox.JPG" style="width: 99%;padding-bottom: 25px;padding-top: 10px;"></th>
+        <th><img src="media/laser/finished.JPG" style="width: 99%;padding-bottom: 25px;padding-top: 10px;"></th><th>
+        <img src="media/laser/inside.JPG" style="width: 99%;padding-bottom: 25px;padding-top: 10px;"></th>
+        </tr></table>
 
 
 
