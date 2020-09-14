@@ -4,7 +4,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="media/website/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/website/favicon-16x16.png">
     <link rel="manifest" href="media/website/site.webmanifest">
-<title>About Me</title>
+<title>Week 1</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-</style>
+    </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
@@ -79,7 +79,7 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="https://amandahodgkins.github.io/week1">Week 1: Project Management</a>
   <a href="https://amandahodgkins.github.io/week2">Week 2: Laser Cutting</a>
-  <a href="https://amandahodgkins.github.io/week3">Week 3: Additive Manufacturing</a>
+  <a href="#">Week 3</a>
   <a href="#">Week 4</a>
 </div>
 
@@ -114,27 +114,28 @@ function closeNav() {
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
-</a>
+  </a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>  </b></h1>
+    <h1><b>Week 1: Project Management </b></h1>
+    <p>The assignment for week 1 was to design a website.</p>
 
     </div>
   </header>
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h2> Step 1</h2>
+<p>The first thing I did for this assignment was download the applications listed in the instructions. I downloaded and installed <a href="https://brackets.io">Brackets</a> and then made an account on the <a href="https://github.com" >GitHub website</a>! I then followed Madison's instructions in her tutorial video and created a repository in GitHub and then also used commands in terminal on my Mac to copy this repository to my desktop. (work in terminal pictured below)<br>
+    <img src="media/website/terminal.png" style="width:50%;padding-top: 10px;" class="center">
+    <h2> Step 2</h2>
+    I then went on the <a href="https://www.w3schools.com/w3css/w3css_templates.asp">w3schools website</a> to look at templates for my site. After looking at the previews for a bunch of options, I decided to go with the Nature Portfolio template. (pictured below)
+    <br><img src="media/website/template.png" style="width:50%; padding-top: 10px;" >
+    <h2>Step 3</h2>
+    I then copied the source code from the <a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_portfolio&stacked=h">w3schools template</a> to the Brackets app, where I had installed an extension that would allow me to push my edits to my repository and website directly. I then worked on editing the information within the template to fit my needs and the overall look I wanted my website to have. I changed the layout to make the about me section a separate page from the home page, and then added a separate page for this assignment which you're reading right now! This photo below showcases me working on coding the site, with the Brackets app tiled to the left of my screen, and the live preview of my work on the right.<br>     <img src="media/website/coding.png" style="width: 50%; padding-top: 10px; padding-bottom: 10px; "><br>
+ Most of these edits were made using my prior knowledge of coding, however I used a couple other resources from w3schools in my navigation bar, namely the popup for my assignments. After saving my edits to the code, I clicked the box next to the Commit button on the bracketsgit extension, which selected all of my pages that were edited. I then hit commit, and a popup which shows the changes made to the code appears.<br> <img src="media/website/gitpush.png" style="width: 30%; padding-top: 10px; padding-bottom: 10px; "><br>
+    After writing something to explain what was changed, the button that says OK is pressed. Brackets goes back to the editing screen, and a new button in the extension panel now has a number next to it that denotes the number of pages edited/changed.
+    <br> <img src="media/website/bracketsgit%20push.png" style ="width: 50%; padding-top: 10px; padding-bottom: 10px;"> <br>I click on this and these changes get pushed to the Github repository which then updates the actual website! <br> <img src="media/website/updated.png" style="width: 30%; padding-top: 10px; padding-bottom: 25px;"> <br>
 
 
-
-  <!-- Pagination -->
-    <!-- Images of Me -->
-
-      <img src="media/website/hello.png" style="width:50% " class="center">
-<style> img { display:block; margin-left: auto;
-    margin-right:auto; width:50%;}</style>
-
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>About Me</b></h4>
-    <p>hello! i'm amanda! i'm a freshman at wheaton college taking intro to digital fabrication! i've done a  bit of coding and work with 3d printers and other technology at school and in my free time before but hope that this will help me expand my knowledge a bit more!i enjoy making things and doing hands on projects, which is what this class entails. i have absolutely no idea what i want to major in, but i have time to figure it out! there are just too many things that i'm interested in and the fact that i'm indecisive doesn't help at all! some of my hobbies include making jewelery, watching all sorts of movies and too much tv, listening to music, and doing random projects! </p>
-    <hr>
 
 
 
@@ -182,4 +183,4 @@ function w3_close() {
 </script>
 
 </body>
-</html>
+</html> 
