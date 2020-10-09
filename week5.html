@@ -167,7 +167,7 @@ To start brainstorming a project, I looked up examples of CNC designs on both pi
     <img src="media/cnc/designinspo4.jpg" style="width: 50%;padding-bottom: 10px;padding-top: 10px;">
  <img src="media/cnc/designinspo3.jpg" style="width: 50%;padding-bottom: 10px;padding-top: 10px;">
 
-    <br>
+    <br> I really enjoyed the lines in the bench and the curves of the light.<br><br>
 When I first was thinking about making something, I knew I wanted it to be useful. I was thinking of other projects I had done, and was debating on making another version of a flower planter that my dad made when he was younger and I recreated for my grandmother. A similar style to the one we made is below.<br>
   <img src="media/cnc/designinspo5.jpg" style="width: 50%;padding-bottom: 10px;padding-top: 10px;">
     <br>
@@ -176,6 +176,29 @@ When I first was thinking about making something, I knew I wanted it to be usefu
     <br>For whatever reason, that bowl gave me the idea of making a basket. I had a vague idea of how I wanted it to look, but kind of made things up as I went along in terms of designing it.<br>
     I started by making the base, which was just a rectangle, which I offset because I was going to use a pocket cut on.<br>
     <img src="media/cnc/base.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    I then project the lines of the outer rectangle to an offset plane that was .75 inches above the first, since that was the thickness of the wood. Using those as construction lines, I used the three point arc slot tool to make the alternating curves of the 'woven' wood. <br>
+    <img src="media/cnc/firstweave.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    I then projected this layer on another offset plane of .75 inches to do the same thing, but the opposite direction to make the alternating weave. <br>
+    <img src="media/cnc/secondweave.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    I only needed to make these two sketches for this component of the basket, since I could just copy them to build up the sides of the basket. I kept these two sketches visible along with the base, and then added the smaller rectangles that would stabilize the intertwining woven wood pieces. <br>
+    <img src="media/cnc/rectangles.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    I then extruded my elements. Here's the base, supports, and first woven layer. The inner rectangle of the base is extruded .25 inches and the supports are extruded 4 inches, while everything else was extruded .75 inches. <br>
+    <img src="media/cnc/firstlayer.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    For creating the alternating woven parts of the basket, all I had to do to separate them was select whatever face was next in the pattern and go to extrude it like normal, except I extruded it on an offset plane.<br>
+    <img src="media/cnc/offsetextrude.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    I copied each original weave once, leaving me with four layers.<br>
+    <img src="media/cnc/wovenedges.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    Then, to finish it off, I created and extruded a rectangle above this, similar to the base.<br>
+    <img src="media/cnc/top.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    Using the small square you can see in the screenshot above, I revolved this to the other side, creating a handle for the basket. After that was done, I filletted the edges.<br>
+    <img src="media/cnc/fillet.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    My basket was done!
+    <br>
+    <img src="media/cnc/basket.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+    To create the drawing of how the piece would be cut, I created a new sketch in Fusion360 that was 2 by 4 feet. I then copied ans pasted my sketches for the base, woven elements, and top. I drew the rectangles that made up the supports and also drew the handle. Here's how the wood would be cut.<br>
+    <img src="media/cnc/wood.png" style="width:50%; padding-bottom: 10px; padding-top: 10px;"><br>
+      <h3>  <a href="media/cnc/files.zip" download="files">Here</a> are the files for the basket and piece of wood to be cut!</h3>
+
   <!-- Contact Section -->
   <div  style="padding-top: 100px;" class="w3-container w3-padding-large w3-grey">
     <h4 id="contact"><b>Contact Me</b></h4>
