@@ -4,7 +4,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="media/website/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/website/favicon-16x16.png">
     <link rel="manifest" href="media/website/site.webmanifest">
-<title>Week 4</title>
+<title>Week 6</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -82,7 +82,7 @@ body {
   <a href="https://amandahodgkins.github.io/week3">Week 3: Additive Manufacturing</a>
   <a href="https://amandahodgkins.github.io/week4">Week 4: CAD, CAM, Plants, and Prusas</a>
      <a href="https://amandahodgkins.github.io/week5">Week 5: Subtractive Manufacturing</a>
-    <a href="https://amandahodgkins.github.io/week6">Week 6: Slicer Mini</a>
+     <a href="https://amandahodgkins.github.io/week6">Week 6: Slicer Mini</a>
 </div>
 
 
@@ -119,62 +119,13 @@ function closeNav() {
   </a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <h1><b>Week 4: CAD, CAM, Plants, and Prusas </b></h1>
-    <p>The assignment for week 4 was to design and 3D print a vase to hold plants and then design a watering can in Fusion360.</p>
+    <h1><b>Week 6: Slicer Mini </b></h1>
+    <p>The assignment for week 6 was to laser cut a 3D cardboard object.</p>
 
     </div>
   </header>
 <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h2> The Vase</h2>
-
-<p>I followed Kevin's tutorial and made my vase on Fusion360 before importing the stl files to PrusaSlicer.<br>
-    <img src="media/plant/originalslice.png" style="width:50%;padding-top: 10px;padding-bottom: 10px;" class="center">
-    <br>
-    I played around with scaling my vase a bit, before making it a bit bigger than it was originally. <br>
-    <img src="media/plant/scale.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;">
-    <br>
-    I then went to Madison's tutorial on how to use vase mode in PrusaSlicer. From the original screen, I went into print settings and changed the vertical settings so the spiral vase box was checked. I also changed the number of layers on the bottom in the horizontal settings. It was originally 4 but after a bit of playing around with the value I wanted, i decided on having 6 layers.<br>
-
-    <img src="media/plant/vasemode.png" style="width:50%; padding-top: 10px;padding-bottom: 10px" ><br>
-    From that, I went back to the preview before looking at layers mode to see my newly hollowed out shape! <br>
-    <img src="media/plant/vasepreview.png" style="width: 50%; padding-bottom: 10px; padding-top: 10px;"><br>
-    From there it was only a matter of making sure I had the right filament and machine selected before I exported the gcode to an sd card and was all set to print!<br>
-    <img src="media/plant/filamentgcode.png" style="width:40%; padding-top: 10px;padding-bottom: 10px;"><br>
-
-    <h4>Printing</h4>
-    I went through printing like I would regularly, selecting my file on the machine, selecting and inserting my filament, etc. My print went relatively smoothly other than a bit of a mess up in  one ofvthe bottom layers, but it didn't mess it up and isn't very noticable.
-        <table style="width:100%">
-        <tr><th><img src="media/plant/print1.JPG" style="width:100%"></th>
-        <th><img src="media/plant/print2.JPG" style="width:100%"></th>
-        <th> <img src="media/plant/print3.JPG" style="width:100%"></th>
-        <th> <img src="media/plant/print4.JPG"style="width:100%"></th>
-        <th><img src="media/plant/print5.JPG"style="width:100%;"></th>
-            </tr></table><br>
-    This was my final product!<br>
-    <img src="media/plant/vase.JPG" style="width:50%;padding-bottom: 10px; padding-top: 20px;">
-    <h3> Watering Can</h3>
-    Using my prior knowledge from previous projects, and the skills learned in the tutorials for this assignment, I started designing my watering can. I made a defined ellipse and extruded it, before creating a new sketch on the top of that surface, adding a point on the edge and a construction line to define that new sketch. From this, I created a plane from the tangent of a point and a side. <br>
-    <img src="media/plant/pointplane.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    I then made a circle on this new plane where the spout would come from. I offset this plane and created an angled plane for the spout before adding another circle. <br>
-    <img src="media/plant/angle.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    Next, I extruded this face back into the base of the can itself, joining these two elements together.<br>
-    <img src="media/plant/extrude.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    After, I went back to the angled plane and created another offset plane from that, where I eventually made a smaller circle.<br>
-    <img src="media/plant/offsetplane.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    I then used the loft tool to connect these two circles to create a spout that gradually got smaller as it reached what would be the head.<br>
-    <img src="media/plant/loftspout.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    I repeated the process with the offset plane and loft tool to create the head of the watering can, before shelling out this entire shape.<br>
-    <img src="media/plant/shell.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    I then went back to the sketch of the larger circle at the head of the spout and created another, extruding it a bit from the rest of the head. On this surface, I added smaller circles before extruding them to cut through this shape, creating the holes in the head for the water to pass through.<br>
-    <img src="media/plant/cutholes.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    Once the construction of the shape of the watering can was finished, I used the fillet tool to smooth the outer edge of the rim of the can. <br>
-    <img src="media/plant/fillet.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    Finally, I checked to make sure that all of my sketches were defined (which they were) and I was finished!<br>
-    <img src="media/plant/defined.png" style="width:40%; padding-top: 10px;padding-bottom: 10px;">
-    <img src="media/plant/done.png" style="width:50%; padding-top: 10px;padding-bottom: 10px;"><br>
-    <h3> My stl files for the vase and the watering can can be found <a href="media/plant/files.zip" download="files">here</a>!</h3>
-
-
+    <h2> Step 1</h2>
 
 
 
